@@ -2,9 +2,34 @@ li{
   list-style-type: none;
 }
 
-a{
+nav{
+  font-family: arial, serif;
+  font-size: 13px;
+}
+
+nav a{
   color: inherit;
   text-decoration: none;
+}
+
+nav ul, li{
+  display: inline;
+}
+
+.top li{
+    color: rgb(0, 0, 0);
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.foot li{
+  color: rgb(95, 99, 104);
 }
 
 a:hover{
