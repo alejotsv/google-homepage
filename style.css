@@ -7,6 +7,11 @@ nav{
   font-size: 13px;
 }
 
+.top-nav{
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
 nav a{
   color: inherit;
   text-decoration: none;
@@ -18,6 +23,28 @@ nav ul, li{
 
 .top li{
     color: rgb(0, 0, 0);
+    padding-left: 20px;
+}
+
+.logo, .search-text{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-text{
+    width: 600px;
+    height: 40px;
+}
+
+.buttons{
+  text-align: center;
+  margin-top: 20px;
+}
+
+button{
+  display: inline-block;
+  margin: 5px;
 }
 
 .left{
@@ -26,12 +53,24 @@ nav ul, li{
 
 .right{
   float: right;
+  margin-right: 50px;
 }
 
 .foot li{
   color: rgb(95, 99, 104);
+  padding-left: 20px;
 }
 
 a:hover{
   text-decoration: underline;
+}
+
+.footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    padding-top: 15px;
+    margin-bottom: 20px;
 }
